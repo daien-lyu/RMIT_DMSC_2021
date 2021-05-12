@@ -1,0 +1,257 @@
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#holding {
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    flex-direction: row;
+}
+
+#logo {
+    height: 7vh;
+    width: auto;
+
+    margin-top: 5vh;
+    margin-left: 3.5em;
+
+    position: absolute;
+    z-index: 1000;
+}
+
+#follow {
+    font-family: 'EB Garamondd', serif;
+    font-size: 2.5vh;
+    color: white;
+
+    position: absolute;
+    z-index: 1000;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-left: 3.5em;
+    margin-top: 92vh;
+}
+
+#ins {
+    height: 3vh;
+    width: auto;
+
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+#fb {
+    height: 3vh;
+    width: auto;
+}
+
+
+.left {
+    width: 35vw;
+    height: 100vh;
+
+    background-color: #2f3469;
+
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    z-index: -1;
+
+
+}
+
+
+#countdown {
+    color: white;
+  
+    padding-top: 10vh;
+    text-align: left;
+    margin-left: -0.6em;
+  
+}
+
+#container {
+    z-index: 1;
+}
+
+#presents {
+    font-family: 'EB Garamondd', serif;
+    font-size: 3.5vh;
+
+    color: white;
+}
+
+#curating {
+    font-size: 3.5vh;
+    padding-bottom: 9vh;
+}
+
+#title {
+    font-size: 7vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+#date {
+    font-family: 'Rubik', sans-serif;
+    font-size: 9.5vh;
+    font-weight: 400;
+
+    /* margin-left: 6vw; */
+    padding-top: 1vw;
+    color: white;
+}
+
+ul {
+    width: 60%;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    font-size: 2em;
+    list-style-type: none;
+    padding: 0.3em;
+    text-transform: uppercase;
+    text-align: center;
+
+    font-family: 'Rubik', sans-serif;
+}
+
+li span {
+    display: block;
+    font-size: 2rem;
+
+    font-family: 'Rubik', sans-serif;
+}
+
+
+#graphic {
+    position: absolute;
+
+    width: 65vw;
+    height: 100vh;
+
+    margin-left: 35vw;
+    margin-top: 0;
+
+    z-index: 1;
+}
+
+
+
+@media all and (max-width: 1024px) {
+    .left {
+        background-image: url(322.jpg);
+        width: 100vw;
+    }
+
+    #container {
+        visibility: visible;
+        background-color: rgba(47, 52, 105, 0.7);
+
+        height: 80vw;
+        width: 90vw;
+
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        
+        
+
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        z-index: 10;
+    }
+
+    #presents {
+        padding: 0;
+        font-size: 4.5vw;
+        text-align: center;
+    }
+
+    #rmit {
+        padding-top: 0;
+        padding-bottom: 0;
+
+        font-size: 1em;
+    }
+
+    #curating {
+        font-size: 1em;
+        padding-bottom: 1vh;
+    }
+
+    #title {
+        font-size: 2em;
+    }
+
+    #date {
+        padding: auto;
+        font-size: 10vw;
+        text-align: center;
+    }
+
+    #countdown {
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 4vh;
+
+        display: flex;
+        justify-content: center;
+    }
+
+
+    #graphic {
+        z-index: -1000;
+    }
+
+    ul {
+        padding: auto;
+        padding-left: auto;
+        padding-right: auto;
+
+        display: flex;
+        justify-content: center;
+    }
+    
+    li {
+        font-size: 4vh;
+        padding: .75rem;
+    }
+    
+    li span {
+        font-size: 4vh;
+    }
+
+    #logo {
+        margin-left: 2em;
+    }
+
+    #follow {
+        margin-left: 2em;
+    }
+
+    #ins {
+        padding-left: 2vw;
+        padding-right: 2vw;
+    }
+
+    
+}
